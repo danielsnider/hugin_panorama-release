@@ -1,0 +1,12 @@
+Source: ros-kinetic-hugin-panorama
+Section: misc
+Priority: extra
+Maintainer: Daniel Snider <danielsnider12@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-cv-bridge, ros-kinetic-image-view, ros-kinetic-rospy, ros-kinetic-sensor-msgs, ros-kinetic-std-srvs
+Homepage: http://wiki.ros.org/hugin_panorama
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-hugin-panorama
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, enblend, hugin-tools, imagemagick, python-opencv, python-rospkg, ros-kinetic-cv-bridge, ros-kinetic-image-view, ros-kinetic-rospy, ros-kinetic-sensor-msgs, ros-kinetic-std-srvs
+Description: Create panoramas in ROS using image snapshots or multiple video streams.
